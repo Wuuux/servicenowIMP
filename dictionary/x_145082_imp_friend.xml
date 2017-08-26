@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Friend" max_length="40" name="x_145082_imp_friend" type="collection">
+        <element label="Master" max_length="32" name="master" reference="x_145082_imp_players" type="reference"/>
+        <element label="Slave" max_length="32" name="slave" reference="x_145082_imp_players" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="slave"/>
+        </index>
+        <index name="index2">
+            <element name="master"/>
+        </index>
+    </element>
+</database>

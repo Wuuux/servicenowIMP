@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="28299e6d0f708300572fadabe1050e4a" sys_domain="global" table="x_145082_imp_players" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nick</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-25 12:15:08</sys_created_on>
+            <sys_id>e16cd6ed0f708300572fadabe1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_145082_imp_players" sys_domain="global" view="Default view">28299e6d0f708300572fadabe1050e4a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-25 12:15:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-25 12:15:08</sys_created_on>
+            <sys_id>656cd6ed0f708300572fadabe1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_145082_imp_players" sys_domain="global" view="Default view">28299e6d0f708300572fadabe1050e4a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-25 12:15:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-25 12:15:08</sys_created_on>
+            <sys_id>e56cd6ed0f708300572fadabe1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_145082_imp_players" sys_domain="global" view="Default view">28299e6d0f708300572fadabe1050e4a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-25 12:15:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-25 12:15:08</sys_created_on>
+            <sys_id>696cd6ed0f708300572fadabe1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_145082_imp_players" sys_domain="global" view="Default view">28299e6d0f708300572fadabe1050e4a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-25 12:15:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_145082_imp_players</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-25 12:00:52</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28299e6d0f708300572fadabe1050e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_145082_imp_players</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IMP" source="x_145082_imp">98890ead0ffc4300572fadabe1050ec6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IMP">98890ead0ffc4300572fadabe1050ec6</sys_scope>
+            <sys_update_name>sys_ui_section_28299e6d0f708300572fadabe1050e4a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-25 12:00:52</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

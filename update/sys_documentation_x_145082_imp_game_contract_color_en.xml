@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="contract_color" label="Contract Color" language="en" table="x_145082_imp_game">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>contract_color</element>
+            <help/>
+            <hint/>
+            <label>Contract Color</label>
+            <language>en</language>
+            <name>x_145082_imp_game</name>
+            <plural>Contract Colors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-25 11:44:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9d651ee90f708300572fadabe1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Contract Color</sys_name>
+            <sys_package display_value="IMP" source="x_145082_imp">98890ead0ffc4300572fadabe1050ec6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IMP">98890ead0ffc4300572fadabe1050ec6</sys_scope>
+            <sys_update_name>sys_documentation_x_145082_imp_game_contract_color_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-25 11:44:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

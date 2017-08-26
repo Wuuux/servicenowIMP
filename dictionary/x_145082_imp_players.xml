@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Player" max_length="40" name="x_145082_imp_players" type="collection">
+        <element display="true" label="Nick" mandatory="true" max_length="40" name="nick" type="string"/>
+    </element>
+</database>
