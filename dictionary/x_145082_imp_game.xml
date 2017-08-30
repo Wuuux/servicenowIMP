@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Game" max_length="40" name="x_145082_imp_game" type="collection">
-        <element choice="3" label="Contract Color" max_length="40" name="contract_color" type="integer">
+        <element choice="3" default="1" label="Contract Color" max_length="40" name="contract_color" type="integer">
             <choice>
-                <element label="Clubs" value="1"/>
-                <element label="Diamonds" value="2"/>
-                <element label="Hearts" value="3"/>
-                <element label="NT" value="5"/>
-                <element label="Pass" value="0"/>
-                <element label="Spades" value="4"/>
+                <element label="Clubs" sequence="0" value="1"/>
+                <element label="Diamonds" sequence="1" value="2"/>
+                <element label="Hearts" sequence="2" value="3"/>
+                <element label="Spades" sequence="3" value="4"/>
+                <element label="NT" sequence="4" value="5"/>
+                <element label="Pass" sequence="5" value="0"/>
             </choice>
         </element>
         <element choice="3" default="0" label="Contract Level" mandatory="true" max_length="40" name="contract_level" type="integer">
@@ -25,6 +25,13 @@
         </element>
         <element label="Double" max_length="40" name="double" type="boolean"/>
         <element label="E" max_length="32" name="e" reference="x_145082_imp_players" reference_qual="nickISNOTEMPTY^EQ" reference_qual_condition="nickISNOTEMPTY^EQ" type="reference"/>
+        <element choice="3" default="20" label="Hand points" mandatory="true" max_length="40" name="hand_points" type="integer">
+            <choice>
+                <element label="20" value="20"/>
+                <element label="21" value="21"/>
+                <element label="22" value="22"/>
+            </choice>
+        </element>
         <element label="IMP Points" max_length="40" name="imp_points" read_only="true" type="integer"/>
         <element choice="2" label="Match" mandatory="true" max_length="32" name="match" reference="x_145082_imp_match" type="reference" use_dynamic_default="true">
             <choice/>
@@ -46,20 +53,20 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element choice="3" default="6" label="Tricks" max_length="40" name="tricks" type="integer">
             <choice>
-                <element label="0" value="0"/>
-                <element label="1" value="1"/>
-                <element label="10" value="10"/>
-                <element label="11" value="11"/>
-                <element label="12" value="12"/>
-                <element label="13" value="13"/>
-                <element label="2" value="2"/>
-                <element label="3" value="3"/>
-                <element label="4" value="4"/>
-                <element label="5" value="5"/>
-                <element label="6" value="6"/>
-                <element label="7" value="7"/>
-                <element label="8" value="8"/>
-                <element label="9" value="9"/>
+                <element label="6" sequence="0" value="6"/>
+                <element label="7" sequence="1" value="7"/>
+                <element label="8" sequence="2" value="8"/>
+                <element label="9" sequence="3" value="9"/>
+                <element label="10" sequence="4" value="10"/>
+                <element label="11" sequence="5" value="11"/>
+                <element label="12" sequence="6" value="12"/>
+                <element label="13" sequence="7" value="13"/>
+                <element label="5" sequence="8" value="5"/>
+                <element label="4" sequence="9" value="4"/>
+                <element label="3" sequence="10" value="3"/>
+                <element label="2" sequence="11" value="2"/>
+                <element label="1" sequence="12" value="1"/>
+                <element label="0" sequence="13" value="0"/>
             </choice>
         </element>
         <element label="W" max_length="32" name="w" reference="x_145082_imp_players" reference_qual="nickISNOTEMPTY^EQ" reference_qual_condition="nickISNOTEMPTY^EQ" type="reference"/>

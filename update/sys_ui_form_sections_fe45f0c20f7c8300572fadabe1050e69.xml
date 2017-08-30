@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="fe45f0c20f7c8300572fadabe1050e69" sys_domain="global" table="x_145082_imp_game" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 18:01:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a45f0c20f7c8300572fadabe1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_145082_imp_game" name="x_145082_imp_game" sys_domain="global" view="Default view">fe45f0c20f7c8300572fadabe1050e69</sys_ui_form>
+            <sys_ui_section caption="Game" display_value="Game" name="x_145082_imp_game" sys_domain="global" view="Default view">d99e9a210fb08300572fadabe1050ea5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 18:01:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 18:01:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7645f0c20f7c8300572fadabe1050e6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_145082_imp_game" name="x_145082_imp_game" sys_domain="global" view="Default view">fe45f0c20f7c8300572fadabe1050e69</sys_ui_form>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_145082_imp_game" sys_domain="global" view="Default view">fe45f0c20f7c8300572fadabe1050e67</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 18:01:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 18:01:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b45f0c20f7c8300572fadabe1050e8d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_145082_imp_game" name="x_145082_imp_game" sys_domain="global" view="Default view">fe45f0c20f7c8300572fadabe1050e69</sys_ui_form>
+            <sys_ui_section caption="Players" display_value="Players" name="x_145082_imp_game" sys_domain="global" view="Default view">f245f0c20f7c8300572fadabe1050e69</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-27 16:53:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_145082_imp_game</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 18:01:38</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe45f0c20f7c8300572fadabe1050e69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_145082_imp_game</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IMP" source="x_145082_imp">98890ead0ffc4300572fadabe1050ec6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IMP">98890ead0ffc4300572fadabe1050ec6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fe45f0c20f7c8300572fadabe1050e69</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 18:01:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

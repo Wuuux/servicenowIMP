@@ -5,6 +5,7 @@
         <element label="E Substitution" max_length="40" name="e_substitution" read_only="true" type="boolean"/>
         <element label="N" mandatory="true" max_length="32" name="n" reference="x_145082_imp_players" reference_qual="nickISNOTEMPTY^EQ" reference_qual_condition="nickISNOTEMPTY^EQ" type="reference"/>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="NS points" max_length="40" name="ns_points" read_only="true" type="integer"/>
         <element default="0" label="Number of contracts" max_length="40" name="number_of_contracts" read_only="true" type="integer"/>
         <element label="N Substitution" max_length="40" name="n_substitution" read_only="true" type="boolean"/>
         <element label="Organizer" max_length="32" name="organizer" reference="x_145082_imp_players" type="reference"/>
@@ -13,6 +14,7 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="S Substitution" max_length="40" name="s_substitution" read_only="true" type="boolean"/>
         <element label="W" mandatory="true" max_length="32" name="w" reference="x_145082_imp_players" reference_qual="nickISNOTEMPTY^EQ" reference_qual_condition="nickISNOTEMPTY^EQ" type="reference"/>
+        <element label="WE points" max_length="40" name="we_points" read_only="true" type="integer"/>
         <element label="W Substitution" max_length="40" name="w_substitution" read_only="true" type="boolean"/>
         <index name="index">
             <element name="s"/>

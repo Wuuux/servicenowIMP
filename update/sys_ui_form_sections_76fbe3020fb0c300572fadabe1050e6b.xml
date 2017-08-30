@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="76fbe3020fb0c300572fadabe1050e6b" sys_domain="global" table="x_145082_imp_match" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-27 07:19:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3afbe3020fb0c300572fadabe1050e6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_145082_imp_match" name="x_145082_imp_match" sys_domain="global" view="Default view">76fbe3020fb0c300572fadabe1050e6b</sys_ui_form>
+            <sys_ui_section caption="Match" display_value="Match" name="x_145082_imp_match" sys_domain="global" view="Default view">e77c1aed0f708300572fadabe1050ebb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-27 07:19:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-27 07:19:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2fbe3020fb0c300572fadabe1050e6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_145082_imp_match" name="x_145082_imp_match" sys_domain="global" view="Default view">76fbe3020fb0c300572fadabe1050e6b</sys_ui_form>
+            <sys_ui_section caption="Players" display_value="Players" name="x_145082_imp_match" sys_domain="global" view="Default view">b6fbe3020fb0c300572fadabe1050e6a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-27 07:19:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_145082_imp_match</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-27 07:19:48</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76fbe3020fb0c300572fadabe1050e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_145082_imp_match</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IMP" source="x_145082_imp">98890ead0ffc4300572fadabe1050ec6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IMP">98890ead0ffc4300572fadabe1050ec6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_76fbe3020fb0c300572fadabe1050e6b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-27 07:19:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
