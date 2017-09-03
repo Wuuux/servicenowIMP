@@ -4,49 +4,46 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Import values from match into form&#13;
-last updated match id, next nr of game, players</description>
-        <field>sys_class_name</field>
+        <description>Count IMP points</description>
+        <field>player</field>
         <global>true</global>
         <messages/>
-        <name>Import values from match into form</name>
+        <name>Player change</name>
         <order/>
-        <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   if(g_form.isNewRecord()){
-	  //g_form.addInfoMessage('New game!');
-	  g_form.setValue('imp_points', 0);
-      var ga = new GlideAjax('QuickQuery'); 
-		  ga.addParam('sysparm_name', 'getLastUpdatedMatch'); 
-		  ga.getXMLAnswer(function(answer) { 
-			  //g_form.addInfoMessage('Answer: ' + answer);
-			  if (answer != null)  {
-				  g_form.setValue('match', answer);
-				  g_form.showFieldMsg('match','last updated match');
-			  }
-			  
-		  });
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
    }
+
+   //Type appropriate comment here, and begin script below
+	
+	var ga = new GlideAjax('imp_points'); 
+		  ga.addParam('sysparm_name', 'calculate'); 
+		  ga.getXMLAnswer(function(answer) { 
+			   g_form.setValue('imp_points', parseInt(answer));
+		  });
+	
+	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-30 08:28:55</sys_created_on>
+        <sys_created_on>2017-09-03 18:39:52</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>04e65bcb0f344300572fadabe1050ee6</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Import values from match into form</sys_name>
+        <sys_id>f0ca0a280f410300572fadabe1050e37</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Player change</sys_name>
         <sys_overrides/>
         <sys_package display_value="IMP" source="x_145082_imp">98890ead0ffc4300572fadabe1050ec6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IMP">98890ead0ffc4300572fadabe1050ec6</sys_scope>
-        <sys_update_name>sys_script_client_04e65bcb0f344300572fadabe1050ee6</sys_update_name>
+        <sys_update_name>sys_script_client_f0ca0a280f410300572fadabe1050e37</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-03 18:46:56</sys_updated_on>
+        <sys_updated_on>2017-09-03 18:40:58</sys_updated_on>
         <table>x_145082_imp_game</table>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>

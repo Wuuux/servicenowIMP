@@ -37,9 +37,9 @@
             <choice/>
         </element>
         <element label="N" max_length="32" name="n" reference="x_145082_imp_players" reference_qual="nickISNOTEMPTY^EQ" reference_qual_condition="nickISNOTEMPTY^EQ" type="reference"/>
-        <element label="Nr" mandatory="true" max_length="40" name="nr" type="integer"/>
+        <element label="Nr" max_length="40" name="nr" read_only="true" type="integer"/>
         <element label="NS vulnerable" max_length="40" name="ns_vulnerable" read_only="true" type="boolean"/>
-        <element choice="1" label="Player" mandatory="true" max_length="40" name="player" type="choice">
+        <element choice="3" default="N" label="Player" mandatory="true" max_length="40" name="player" type="choice">
             <choice>
                 <element label="N" sequence="0" value="N"/>
                 <element label="S" sequence="1" value="S"/>

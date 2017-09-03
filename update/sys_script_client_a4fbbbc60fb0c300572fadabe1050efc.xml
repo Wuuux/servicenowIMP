@@ -26,7 +26,7 @@
 	   g_form.setDisplay('double', false);	   
 	   g_form.setDisplay('contract_color', false);
 	   g_form.setValue('player', 'N');
-	   g_form.setDisplay('player', false);
+	   //g_form.setDisplay('player', false);
    }
    else 
    {
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a4fbbbc60fb0c300572fadabe1050efc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Hide fields in game</sys_name>
         <sys_overrides/>
         <sys_package display_value="IMP" source="x_145082_imp">98890ead0ffc4300572fadabe1050ec6</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="IMP">98890ead0ffc4300572fadabe1050ec6</sys_scope>
         <sys_update_name>sys_script_client_a4fbbbc60fb0c300572fadabe1050efc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-27 11:50:23</sys_updated_on>
+        <sys_updated_on>2017-09-03 17:31:36</sys_updated_on>
         <table>x_145082_imp_game</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
